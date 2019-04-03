@@ -1,4 +1,4 @@
-package cn.ce.st.service.entity;
+package cn.ce.st.pay.entity;
 
 /**
  * @ClassName TestEntity

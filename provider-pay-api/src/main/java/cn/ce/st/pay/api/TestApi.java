@@ -1,6 +1,6 @@
-package cn.ce.st.service.api;
+package cn.ce.st.pay.api;
 
-import cn.ce.st.service.entity.TestEntity;
+import cn.ce.st.pay.entity.TestEntity;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
