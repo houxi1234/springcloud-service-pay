@@ -8,13 +8,14 @@
         <artifactId>dependencyManagement</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <groupId>cn.ce.st.service</groupId>
+    <groupId>cn.ce.st</groupId>
     <artifactId>service-pay</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>provider-pay-api</module>
+        <module>provider-pay-service</module>
     </modules>
 
 

@@ -9,3 +9,6 @@ eureka:
     lease-renewal-interval-in-seconds: 1
 server:
   port: 1001
+
+pagehelper:
+    helperDialect: mysql

@@ -1,4 +1,4 @@
-package cn.ce.st.service;
+package cn.ce.st.pay;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

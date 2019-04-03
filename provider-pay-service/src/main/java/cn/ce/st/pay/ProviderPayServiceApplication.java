@@ -1,4 +1,4 @@
-package cn.ce.st.service;
+package cn.ce.st.pay;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
