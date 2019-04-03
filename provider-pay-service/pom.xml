@@ -49,6 +49,10 @@
             <groupId>cn.ce.st.framework</groupId>
             <artifactId>framework-datasource</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cn.ce.st.framework</groupId>
+            <artifactId>framework-core</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.github.pagehelper</groupId>
