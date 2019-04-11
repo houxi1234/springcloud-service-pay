@@ -14,6 +14,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value = "provider-pay-service")
 public interface TestApi {
 
+    /**
+    * @Author houxi
+    * @Description
+    * @Date 11:35 2019/4/4
+    * @Param []
+    * return cn.ce.st.pay.entity.TestEntity
+    **/
     @GetMapping(value = "test")
     TestEntity test();
 }

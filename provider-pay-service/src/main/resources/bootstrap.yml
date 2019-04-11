@@ -8,4 +8,4 @@ eureka:
     lease-expiration-duration-in-seconds: 3
     lease-renewal-interval-in-seconds: 1
 server:
-  port: 1001
+  port: 10001
