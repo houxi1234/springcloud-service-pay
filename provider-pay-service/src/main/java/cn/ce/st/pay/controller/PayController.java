@@ -34,13 +34,15 @@ public class PayController {
      * @param req
      * @return
      */
-    @PostMapping(value = "pay")
+    @PostMapping(value = "payAmount")
     public ResponseData pay(@RequestBody PayReq req) {
         try {
             payService.pay(req);
         } catch (Exception e) {
             log.error(e.getMessage());
-            return new ErrorResponseData("付款流水单生成失败");
+            ErrorResponseData err = new ErrorResponseData("付款流水单生成失败");
+            err.setExceptionClazz(e.getMessage());
+            return err;
         }
         return new SuccessResponseData();
     }
@@ -51,7 +53,7 @@ public class PayController {
      * @return
      */
     @PostMapping(value = "callback")
-    public ResponseData callback(PayReq req) {
+    public ResponseData callback(@RequestBody PayReq req) {
         try {
 
         } catch (Exception e) {
