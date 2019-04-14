@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  * @author hx
  * @date 2019/4/14 18:25
  */
-@FeignClient(value = "provider-pay-service")
+@FeignClient(value = "provider-pay-service",path = "payFlow")
 public interface PayFlowApi {
 
     /**
